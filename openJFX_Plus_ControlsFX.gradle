@@ -1,9 +1,6 @@
-apply plugin: "kotlin"
-
 plugins {
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.8'
-    id "org.jetbrains.kotlin.jvm"
 }
 
 repositories {
@@ -13,7 +10,6 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.controlsfx', name: 'controlsfx', version: '11.0.0'
-    compile 'no.tornado:tornadofx:1.7.17'
 
 }
 
