@@ -8,9 +8,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.controlsfx', name: 'controlsfx', version: '11.0.0'
-
 }
 
 javafx {
